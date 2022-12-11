@@ -1,5 +1,7 @@
 # Medinicks
 
+Live Link : https://dull-plum-ray-garb.cyclic.app
+
 E-commerce website for shopping medicines with 400+ users and 30+ products wroth of ₹25000+ sold through this.
 
 Frontend made using React.JS, used Redux For state management system and material UI for designing various elements.
