@@ -1,0 +1,16 @@
+.single_order_main label {
+    text-transform: uppercase;
+    margin-bottom: 14px;
+    letter-spacing: 2px;
+    font-size: 12px;
+}
+
+.single_order_main select {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border: 1px solid black;
+}
+
+.single_order_main{
+    margin-top: 40px;
+}

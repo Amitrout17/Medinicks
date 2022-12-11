@@ -1,0 +1,281 @@
+.main_div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom, #32AEB1, #d2fcfd);
+    flex-wrap: wrap;
+    padding-bottom: 40px;
+}
+
+.image_slider img {
+    width: 100%;
+}
+
+.image_slider {
+    width: 400px;
+    margin-top: 50px;
+    margin-right: 60px;
+}
+
+.product_description {
+    width: 500px;
+    margin-left: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.product_description h2 {
+    text-transform: uppercase;
+    color: black;
+    font-weight: 100;
+    letter-spacing: 4px;
+    font-size: 31px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.product_description h3 {
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+
+.ratings {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.ratings p {
+    margin-left: 20px;
+    position: relative;
+    top: 1px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.quantity .pluse,
+.minus {
+    background: 707070;
+    width: 32px;
+    border-radius: 4px;
+    font-size: 16px;
+    padding-bottom: 7px;
+    padding-top: 5px;
+    color: rgb(0, 0, 0);
+    border-style: none;
+    cursor: pointer;
+    font-family: Segoe UI, SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.tocart {
+    border-style: none;
+    margin-left: 25px;
+    width: 179px;
+    height: 34px;
+    position: relative;
+    bottom: 1px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.tocart_div {
+    cursor: pointer;
+}
+
+.tocart i {
+    margin-right: 10px;
+}
+
+.quantity input {
+    margin-left: 3px;
+    margin-right: 3px;
+    border-style: none;
+    height: 31px;
+    border-radius: 2px;
+    position: relative;
+    bottom: 2px;
+    width: 50px;
+    text-align: center;
+}
+
+.status h4 {
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 3px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.description h4 {
+    text-transform: uppercase;
+    text-decoration: underline;
+    margin-top: 0;
+    margin-bottom: 15px;
+    letter-spacing: 3px;
+    font-weight: 200;
+    text-underline-position: under;
+}
+
+.description p {
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+
+.review {
+    border: none;
+    text-transform: uppercase;
+    height: 34px;
+    letter-spacing: 4px;
+    font-size: 14px;
+    border-radius: 4px;
+    width: 43%;
+    background-color: white;
+}
+
+button {
+    cursor: pointer;
+}
+
+/* REVEW BOX*/
+.submit_review h4 {
+    margin: 0;
+    font-weight: 100;
+    text-transform: uppercase;
+    text-align: left;
+    letter-spacing: 2px;
+}
+
+.submit_review {
+    display: none;
+    flex-direction: column;
+    width: 17pc;
+    padding: 12px;
+    border: 1px solid;
+    margin-top: 12px;
+    transition: width 2s;
+}
+
+.review_stars {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.submit_review input {
+    border: none;
+    margin-bottom: 11px;
+    height: 28px;
+}
+
+.subimt_review_buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.subimt_review_buttons button {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border: none;
+    padding: 6px;
+    background-color: white;
+}
+
+/* MEDIA QUERY */
+
+@media only screen and (max-width:1025px) {
+    .image_slider {
+        margin-right: 10px;
+    }
+
+    .product_description {
+        margin-left: 10px;
+    }
+}
+
+@media only screen and (max-width:520px) {
+    .image_slider {
+        width: 300px;
+        margin: 0;
+        margin-top: 33px;
+    }
+
+    .css-1m9128y {
+        margin-bottom: -96px;
+    }
+
+    .product_description h2 {
+        font-size: 23px;
+    }
+
+    .product_description h3 {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width:345) {
+    .quantity input {
+        width: 25px;
+    }
+}
+
+.reviews {
+    background: linear-gradient(to bottom, #d2fcfd, #ffff);
+}
+
+.reviews h2 {
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 100;
+    letter-spacing: 4px;
+    font-size: 31px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    padding-top: 31px;
+    text-underline-position: under;
+    margin-bottom: 50px;
+}
+
+.reviewcard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-height: 340px;
+    overflow: scroll;
+}
+
+.noreviews {
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-weight: 200;
+    letter-spacing: 2px;
+    color: red;
+}
+
+.red {
+    color: red;
+}
+
+.price {
+    text-transform: uppercase;
+    font-weight: 200;
+    letter-spacing: 2px;
+    margin: 0;
+    font-size: 20px;
+}
+
+.quantity input:focus {
+    outline: none;
+}

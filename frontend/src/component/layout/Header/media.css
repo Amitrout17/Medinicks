@@ -1,0 +1,43 @@
+@media only screen and (max-width: 1200px) {
+    .Navbar{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .Navbar a .logo{
+        position: relative;
+        right: 32px;
+    }
+}
+@media only screen and (max-width:520px){
+    .login_cart_cc ul li a{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width:465px){
+    .login_cart_cc ul li a p{
+        display: none;
+    }
+    .login_cart_cc ul {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 0;
+    }
+    .login_cart_cc ul li {
+        margin: 0;
+    }
+    .login_cart_cc{
+        width: 100%;
+    }
+    .login_cart_cc ul li a i {
+        font-size: 17px;
+    }
+    .Navbar a .logo {
+        margin-bottom: -10px;
+        margin-top: -10px;
+    }
+}

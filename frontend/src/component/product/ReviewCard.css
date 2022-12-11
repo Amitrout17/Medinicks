@@ -1,0 +1,29 @@
+.top_div {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: top;
+    margin: 0;
+    border: 2px solid white;
+    padding: 30px
+}
+
+.top_div i {
+    font-size: 30px;
+}
+
+.top_div h4 {
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    font-weight: 200;
+    letter-spacing: 2px;
+    margin-top: 12px;
+}
+
+.top_div p {
+    margin-top: 4px;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+}

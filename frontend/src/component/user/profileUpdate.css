@@ -1,0 +1,80 @@
+.update_profile,.update_profile_main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.update_profile_main{
+    transform: translateY(130px);
+}
+
+.update_profile {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    border: 1px solid white;
+    padding: 10px;
+    transition: all 0.2s ease-out;
+    transition: visibility 0s, opacity 0.5s linear;
+}
+
+.update_name,
+.update_email,
+.update_confirm_btn,.update_useImage {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+    padding: 10px;
+    margin: 5px;
+}
+
+.update_name i,
+.update_email i {
+    color: white;
+    font-size: 34px;
+    margin-right: 10px;
+    cursor: default;
+}
+
+.update_name input,
+.update_email input {
+    border: none;
+    border-radius: 4px;
+    width: 18pc;
+    height: 24px;
+}
+
+.update_confirm_btn button {
+    border: none;
+    border-radius: 4px;
+    width: 21pc;
+    height: 24px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.update_profile h3{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 200;
+    text-decoration: underline;
+    text-underline-position: under;
+    letter-spacing: 3px;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+@media only screen and (max-width:410px){
+    .update_profile{
+        width: 19pc;
+    }
+    .update_name, .update_email, .update_confirm_btn, .update_useImage {
+        width: 265px;
+    }
+}

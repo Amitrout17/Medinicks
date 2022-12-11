@@ -1,0 +1,29 @@
+.your_Cart_items{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border: 1px solid white;
+    padding: 5px;
+
+}
+.your_cart_item_image{
+    width: 50%;
+}
+.your_cart_item_image img{
+    width: 120px;
+}
+.your_cart_item_details{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.your_cart_item_details h5{
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    font-weight: 200;
+}

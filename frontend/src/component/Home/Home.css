@@ -1,0 +1,277 @@
+.banner img {
+    width: 100%;
+}
+
+.starting_products {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    flex-direction: row;
+}
+
+.fragment {
+    background: linear-gradient(to right, #8dd9db, #d2fcfd);
+}
+
+.product_heading {
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-weight: 200;
+    letter-spacing: 6px;
+    text-align: center;
+    text-decoration: underline;
+    text-underline-position: under;
+    font-size: 20px;
+}
+
+.filter_heading {
+    text-transform: uppercase;
+    font-weight: 200;
+    letter-spacing: 6px;
+    text-align: center;
+    text-decoration: underline;
+    text-underline-position: under;
+    font-size: 20px;
+    margin: 0;
+    margin-bottom: 20px;
+
+}
+
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    background: linear-gradient(to right, #8dd9db, #d2fcfd);
+}
+
+
+
+@media only screen and (max-width:530px) {
+    .product_heading {
+        font-size: 19px;
+        margin-bottom: 30px;
+        margin-top: 20px;
+    }
+}
+
+
+
+/* for filter box */
+
+.filterBox {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    top: 0;
+    background-color: #8dd9db;
+    padding-bottom: 7px;
+    margin: auto;
+    width: 60%;
+    padding-top: 4px;
+    padding-right: 10px;
+    padding-left: 10px;
+    flex-wrap: wrap;
+    transition: 0.2s;
+}
+
+.price_filter {
+    width: 162px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    border: 1px solid white;
+    width: 20%;
+
+}
+
+.price_filter p {
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 200;
+    letter-spacing: 5px;
+    color: black;
+    margin: 0;
+    font-size: 17px;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+.categoryBox p {
+    text-transform: uppercase;
+    font-weight: 200;
+    letter-spacing: 7px;
+    color: black;
+    margin: 0;
+    font-size: 17px;
+    text-decoration: underline;
+    text-underline-position: under;
+    margin-bottom: 12px;
+}
+
+.rating_box p {
+    text-transform: uppercase;
+    font-weight: 200;
+    letter-spacing: 2px;
+    color: black;
+    margin: 0;
+    font-size: 17px;
+    margin-bottom: 12px;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+.categoryBox li,
+.rating_box li {
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    font-size: 14px;
+    letter-spacing: 3px;
+}
+
+.categoryBox,
+.rating_box {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: left;
+    justify-content: flex-start;
+    padding: 0;
+    margin: 0;
+    border: 1px solid white;
+    width: 32%;
+}
+
+.clearFilters_buttons{
+    border: none;
+    text-transform: uppercase;
+    height: 34px;
+    letter-spacing: 4px;
+    font-size: 14px;
+    border-radius: 4px;
+    width: 151px;
+    background-color: white;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    height: 47px;
+    margin: auto;
+}
+.clearFilter_{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* media query for filter box */
+@media only screen and (max-width:1000px) {
+    .categoryBox p {
+        text-transform: uppercase;
+        font-weight: 200;
+        letter-spacing: 4px;
+        margin: 0;
+        font-size: 14px;
+        margin-bottom: 9px;
+    }
+    .price_filter p {
+        margin: 0;
+        text-transform: uppercase;
+        font-weight: 200;
+        letter-spacing: 3px;
+        margin: 0;
+        font-size: 14px;
+    }
+    .rating_box p {
+        font-weight: 200;
+        letter-spacing: 2px;
+        margin: 0;
+        font-size: 14px;
+    }
+    .categoryBox li, .rating_box li {
+        font-size: 11px;
+        letter-spacing: 3px;
+    }
+}
+@media only screen and (max-width:718px) {
+    .filterBox {
+        width: 94%;
+    }
+    .clearFilters_buttons {
+        border: none;
+        text-transform: uppercase;
+        height: 34px;
+        letter-spacing: 4px;
+        font-size: 10px;
+        border-radius: 4px;
+        width: 121px;
+        background-color: white;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        height: 34px;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width:549px) {
+    .categoryBox p {
+        font-size: 11px;
+    }    
+    .rating_box p {
+        font-size: 11px;
+        margin-bottom: 3px;
+    }
+    .price_filter p {
+        font-size: 11px;
+    }
+    .categoryBox li, .rating_box li {
+        font-size: 10px;
+        letter-spacing: 3px;
+    }
+    .categoryBox p {
+        margin-bottom: 5px;
+    }
+}
+@media only screen and (max-width:407px) {
+    .categoryBox p {
+        letter-spacing: 2px;
+    }
+    
+}
+
+.filterClick{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 400;
+    cursor: pointer;
+    margin-top: -9px;
+}
+
+@media only screen and (max-width:534px) {
+    .product_heading {
+        margin-top: 15px;
+        margin-bottom: 20px;
+        font-weight: 200;
+        letter-spacing: 4px;
+        font-size: 15px;
+    }
+    .filterClick {
+        font-size: 14px;
+        margin-bottom: 10px;
+        letter-spacing: 4px;
+        margin-top: -9px;
+    }
+}
+.filterClick {
+    transition: 2s;    
+}

@@ -1,0 +1,141 @@
+.myprofile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(100px);
+    flex-wrap: wrap;
+}
+
+.profile_left,
+.profile_right {
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    border: 2px solid white;
+    height:450px
+}
+
+.profile_left{
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.profile_img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profile_left h2 {
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 30px;
+    font-weight: 100;
+    letter-spacing: 9px;
+    text-decoration: underline;
+    text-underline-position: under;
+    margin-bottom: 35px;
+}
+
+.profile_img img {
+    width: 55%;
+    border-radius: 3%;
+}
+.profile_right h2{
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: 3px;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+.profile_name h3{
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 200;
+}
+
+.profile_email h3{
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    font-weight: 200;
+}
+.profile_left button{
+    border: none;
+    text-transform: uppercase;
+    height: 34px;
+    letter-spacing: 4px;
+    font-size: 14px;
+    border-radius: 4px;
+    width: 100%;
+    background-color: white;
+    margin-top: 20px;
+
+}
+.change_password,.myorders{
+    border: none;
+    text-transform: uppercase;
+    height: 34px;
+    letter-spacing: 4px;
+    font-size: 14px;
+    border-radius: 4px;
+    width: 100%;
+    background-color: white;
+    margin-top: 20px;
+}
+
+@media only screen and (max-width:741px){
+    .myprofile {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transform: translateY(0px);
+        flex-wrap: wrap;
+    }
+    .profile_left h2 {
+        font-size: 28px;
+    }
+}
+@media only screen and (max-width:370px){
+    .profile_left h2 {
+        font-size: 23px;
+    }
+    .profile_left {
+        padding-right: 67px;
+        padding-left: 67px;
+    }
+}
+.loginFailMessage{
+    color: red;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 200;
+    transform: translateY(250px);
+    letter-spacing: 3px;
+}
+
+.login_fail_message_button button{
+    border: none;
+    text-transform: uppercase;
+    height: 34px;
+    letter-spacing: 4px;
+    font-size: 14px;
+    border-radius: 4px;
+    width: 200px;
+    background-color: white;
+    margin: 20px;
+}
+
+.login_fail_message_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(230px);
+}

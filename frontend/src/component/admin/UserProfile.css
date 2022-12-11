@@ -1,0 +1,71 @@
+.userProfile_main {
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    height: 8pc;
+    border: 1px solid;
+}
+
+.all_user_main {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.userProfile_main p {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.user_image,
+.user_data {
+    margin: 3px;
+    padding: 3px;
+}
+
+.user_image img {
+    width: 70%;
+}
+
+.user_data button {
+    border: none;
+    background: white;
+    margin: 5px;
+    width: 62px;
+    height: 25px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.admin_review_cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    overflow: scroll;
+}
+
+.admin_reviews_searchBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+.admin_reviews_searchBox input{
+    margin-right: 10px;
+    border: 1px solid black;
+}
+.admin_reviews_searchBox button{
+    background: #0a1727;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 4px;
+    padding: 6px;
+    letter-spacing: 2px;
+}

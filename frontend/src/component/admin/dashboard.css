@@ -1,0 +1,277 @@
+        /* SIDEBAR CSS */
+
+        .sidebar_main li {
+            list-style: none;
+        }
+
+        .sidebar_main .logo {
+            transform: translateX(-27px);
+            margin-bottom: -15px;
+        }
+
+        .sidebar_main h2 {
+            font-size: 15px;
+        }
+
+        .sidebar_main {
+            background-color: #0a1727;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            width: 15pc;
+            height: 100vh;
+            color: white;
+            z-index: 2;
+        }
+
+        .sidebar_main ul {
+            padding: 0;
+        }
+
+        .sidebar_main ul li {
+            margin-top: 35px;
+            margin-bottom: 35px;
+        }
+
+        .sidebar_main ul li {
+            text-transform: capitalize;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            font-weight: 100;
+            font-size: 12px;
+        }
+
+        .sidebar_main ul li:hover {
+            transform: scale(1.05);
+            cursor: pointer;
+        }
+
+        .sidebar_main i {
+            color: black;
+        }
+
+        .sidebar_main i {
+            cursor: default;
+        }
+
+        /* MAIN DASHBOARD CSS */
+        .dashboard_main {
+            display: flex;
+        }
+
+        .dashboard {
+            width: 85%;
+            background-color: #eaeff8;
+        }
+
+        .dashboard h3 {
+            text-transform: uppercase;
+            text-align: center;
+            font-weight: 100;
+            letter-spacing: 3px;
+            margin: 0;
+            padding: 15px 0 15px 0;
+            background-color: white;
+            z-index: 2;
+        }
+
+        .sidebar_main i {
+            color: white;
+        }
+
+        .dashbord_data {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        .dashboard_total_amount {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            width: 230px;
+            height: 90px;
+            background-color: #8862e0;
+            margin-bottom: 10px;
+        }
+
+        .dashbord_total_poduct {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            width: 230px;
+            height: 90px;
+            margin-bottom: 10px;
+            background-color: #19d895;
+        }
+
+        .dashbord_total_user {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            width: 230px;
+            height: 90px;
+            margin-bottom: 10px;
+            background-color: #2196f3;
+        }
+
+        .total_orders {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            width: 230px;
+            height: 90px;
+            margin-bottom: 10px;
+            background-color: #ffaf00;
+        }
+
+        .dashbord_data h5 {
+            margin: 15px;
+            text-transform: uppercase;
+            font-weight: 100;
+            letter-spacing: 2px;
+            font-size: 15px;
+            text-align: center;
+        }
+
+        .dashbord_data p {
+            margin: 15px;
+            text-align: center;
+
+        }
+
+        .dashbord_data {
+            margin-top: 30px;
+        }
+
+        .dashboard_total_amount i {
+            background-color: white;
+            font-size: 30px;
+            color: #8862e0;
+            padding: 10px;
+        }
+
+        .dashbord_total_user i {
+            background-color: white;
+            font-size: 30px;
+            color: #2196f3;
+            padding: 10px;
+        }
+
+        .total_orders i {
+            background-color: white;
+            font-size: 30px;
+            color: #ffaf00;
+            padding: 10px;
+        }
+
+        .dashbord_total_poduct i {
+            background-color: white;
+            font-size: 30px;
+            color: #19d895;
+            padding: 10px;
+            transform: translateX(-10px);
+        }
+
+        .dashbord_data i {
+            cursor: default;
+        }
+
+        .dashboard_amount_earned_graph {
+            width: 50pc;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+
+        .dashbord_donugh {
+            margin-top: 50px;
+            width: 30pc;
+            margin: auto;
+            margin-bottom: 50px;
+        }
+
+        .sidebar_main a {
+            list-style: none;
+            color: white;
+        }
+
+        /*         media query */
+        @media only screen and (max-width:1210px) {
+            .dashbord_data {
+                flex-wrap: wrap;
+            }
+
+            .dashboard_amount_earned_graph {
+                width: 36pc;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: auto;
+                margin-top: 50px;
+                margin-bottom: 50px;
+            }
+        }
+
+        @media only screen and (max-width:1037px) {
+            .dashboard_amount_earned_graph {
+                width: 36pc;
+            }
+
+            .dashbord_donugh {
+                width: 26pc;
+            }
+        }
+
+        .show_sidebar {
+            display: none;
+        }
+
+        @media only screen and (max-width:837px) {
+            .show_sidebar {
+                display: block;
+                position: sticky;
+                top: 0;
+            }
+
+            .show_slide_bar1 {
+                display: none;
+            }
+
+            .sidebar_main {
+                position: fixed;
+                width: 14pc;
+            }
+
+            .dashboard {
+                width: 100%;
+            }
+        }
+
+        @media only screen and (max-width:600px) {
+            .dashboard_amount_earned_graph {
+                width: 27pc;
+            }
+
+            .dashbord_donugh {
+                width: 20pc;
+            }
+        }
+
+        @media only screen and (max-width:437px) {
+            .dashboard_amount_earned_graph {
+                width: 21pc;
+            }
+
+            .dashbord_donugh {
+                width: 18pc;
+            }
+
+        }

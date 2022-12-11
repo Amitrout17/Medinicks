@@ -1,0 +1,271 @@
+body {
+    background: linear-gradient(to right, #32AEB1, #d2fcfd);
+    /*     background: #32AEB1;
+ */
+
+}
+
+.login_signup {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transform: translateY(135px);
+}
+
+.options {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+}
+
+.options p {
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 3px;
+    padding: 10px;
+    margin: 0;
+    cursor: pointer;
+    transition: all 0.2s ease-out;
+}
+
+.options p:hover{
+    background-color: white;
+}
+
+.email,
+.password {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+    padding: 10px;
+
+}
+
+.email i,
+.password i {
+    color: white;
+    font-size: 34px;
+    margin-right: 10px;
+}
+
+.email input,
+.password input {
+    border: none;
+    border-radius: 4px;
+    width: 18pc;
+    height: 24px;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    border: 1px solid white;
+    padding: 10px;
+    transition: all 0.2s ease-out;
+}
+
+.password input {
+    margin-top: 9px;
+}
+
+.login p {
+    margin: 0;
+    color: white;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+.login button {
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    height: 24px;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.password {
+    margin-top: 25px;
+}
+
+.login button p {
+    margin: 0;
+    color: black;
+    text-decoration: none;
+}
+
+.logo h2 {
+    color: white;
+    font-family: 'MuseoModerno', cursive;
+    /*     transform: translateX(-29px);
+ */
+}
+
+.signup_heading {
+    transform: translatex(-29px);
+}
+
+@media only screen and (max-width: 380px) {
+
+    .email input,
+    .password input {
+        width: 16pc;
+    }
+}
+
+.signup i {
+    color: white;
+    font-size: 34px;
+    margin-right: 10px;
+    cursor: default;
+}
+
+.signup input {
+    border: none;
+    border-radius: 4px;
+    width: 18pc;
+    height: 24px;
+}
+
+.signup {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    border: 1px solid white;
+    padding: 10px;
+    transition: all 0.2s ease-out;
+    transition: visibility 0s, opacity 0.5s linear;
+
+}
+.signup div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+    padding: 10px;
+}
+
+.signup_img img {
+    width: 49px;
+    margin-right: 20px;
+}
+
+.login h5{
+    color: red;
+    margin-bottom: -2px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.signup button {
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    height: 24px;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.signup_img input {
+    border: none;
+    border-radius: 4px;
+    width: 283px;
+    height: 24px;
+    text-transform: uppercase;
+}
+
+input::file-selector-button {
+    border: none;
+    border-radius: 4px;
+    width: 6pc;
+    height: 24px;
+}
+
+.signup_email {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.signup_password,
+.signup_img {
+    margin-bottom: 15px;
+}
+
+.login_signup {
+    transition: all 0.2s ease-in;
+}
+
+@media only screen and (max-width: 404px) {
+    .signup input {
+        width: 17pc;
+    }
+
+    .signup div {
+        width: 91%;
+    }
+
+    .signup {
+        width: 88%;
+    }
+
+    .signup_img input {
+        width: 213px;
+    }
+}
+
+.signup h5{
+    color: red;
+    margin-bottom: -2px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 100;
+    font-size: 11px;
+}
+
+.submit_input{
+    width: 92%;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 400;
+    font-size: 15px;
+    height: 30px;
+}
+
+.submit_input:hover{
+    cursor: pointer;
+}
+.options p{
+    border: 1px solid white;
+}
+
+.signup_error h5{
+    color: red;
+    margin-bottom: -2px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 100;
+    font-size: 14px;
+    text-align: center;
+    
+}

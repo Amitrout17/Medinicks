@@ -1,0 +1,10 @@
+.product_list_items_data{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 20px 0 20px;
+}
+.item_details_name{
+    width: 12pc;
+    text-align: left;
+}

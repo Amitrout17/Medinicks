@@ -1,0 +1,29 @@
+.my_orders_main {
+    height: 100%;
+    width: 100%;
+}
+
+.my_order_header h3 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 200;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    text-decoration: underline;
+    text-underline-position: under;
+    background: white;
+    margin-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.single_order_total_price {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 200;
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

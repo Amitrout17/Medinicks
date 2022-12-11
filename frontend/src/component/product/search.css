@@ -1,0 +1,42 @@
+body{
+/*     background: linear-gradient(to bottom, #32AEB1, #d2fcfd);
+ */ }
+.relevent_products{
+    text-transform: uppercase;
+    color: black;
+    font-weight: 100;
+    letter-spacing: 9px;
+    font-size: 22px;
+    margin-top: 0;
+    padding-top: 50px;
+    text-align: center;
+    text-decoration: underline;
+    text-underline-position: under;
+    margin-bottom: 30px;
+}
+.search_products{
+    background: linear-gradient(to bottom, #32AEB1, #d2fcfd);
+    min-height: 47pc;
+}
+
+.no_product{
+    text-transform: uppercase;
+    color: red;
+    font-weight: 100;
+    letter-spacing: 9px;
+    font-size: 18px;
+    margin-top: 0;
+    padding-top: 50px;
+    text-align: center;
+}
+
+@media only screen and (max-width:555px) {
+    .relevent_products {
+        letter-spacing: 6px;
+        font-size: 16px;
+        padding-top: 34px;
+    }
+    .no_product{
+        font-size: 15px;
+    }
+}

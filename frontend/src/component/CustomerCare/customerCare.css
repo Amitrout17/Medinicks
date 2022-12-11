@@ -1,0 +1,20 @@
+.customer_care_main{
+    width: 100%;
+}
+.chat{
+    padding: 45px;
+}
+.chat iframe{
+    width: 100%;
+}
+.map{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.map iframe{
+    width: 100%;
+    padding: 45px;
+}
+
+/* footer css */

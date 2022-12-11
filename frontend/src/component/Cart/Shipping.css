@@ -1,0 +1,250 @@
+.shipping_main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.shipping_address {
+    transform: translateY(20px);
+    width: 35pc;
+    display: flex;
+    flex-direction: column;
+}
+
+.shipping_address_heading {
+    background-color: white;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.shipping_address_heading p {
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.shipping_address_form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.name_number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.address,
+.pincode,
+.city,
+.country,
+.state {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.name,
+.number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    border: 2px solid white;
+}
+
+.name input,
+.number input,
+.address input,
+.city input,
+.pincode input,
+.country input,
+.state input {
+    border: none;
+    background-color: white;
+    color: black;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    height: 35px;
+    text-align: left;
+    margin: 5px;
+    padding: 7px;
+    font-size: 14px;
+}
+
+.name input,
+.number input {
+    width: 94%;
+}
+
+.address {
+    width: 99%;
+    border: 2px solid white;
+}
+
+.address input {
+    width: 97%;
+}
+
+.city_pincode {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.city,
+.pincode {
+    width: 50%;
+    border: 2px solid white;
+}
+
+.city input,
+.pincode input {
+    width: 94%;
+}
+
+.cart_total_price h6 {
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 200;
+    letter-spacing: 2px;
+    font-size: 20px;
+    text-decoration: underline;
+    text-underline-position: under;
+    margin-bottom: 10px;
+}
+
+.state_country {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.country,
+.state {
+    width: 50%;
+    border: 2px solid white;
+}
+
+.country input,
+.state input {
+    width: 94%;
+}
+
+.name,
+.number,
+.address,
+.city,
+.pincode,
+.country,
+.state {
+    margin: 5px;
+}
+
+.name input,
+.number input {
+    width: 91%;
+}
+
+.address input {
+    width: 95%;
+}
+
+.city input,
+.pincode input {
+    width: 91%;
+}
+
+.country input,
+.state input {
+    width: 90%;
+}
+
+.address {
+    width: 97%;
+}
+
+.shipping_main {
+    transform: translateY(130px);
+}
+
+.shipping_address_form i {
+    color: black;
+    font-size: 20px;
+    margin: 5px;
+    color: white;
+}
+
+.shipping_address_form i :hover {
+    cursor: not-allowed;
+}
+
+
+.address i,
+.city i,
+.pincode i,
+.country i,
+.state i {
+    transform: translateY(16px);
+
+}
+
+.cart_total_price_shipping {
+    width: 295px;
+    transform: translateY(11px);
+}
+
+@media only screen and (max-width:1200px) {
+    .shipping_main {
+        transform: translateY(36px);
+    }
+
+    .cart_total_price_shipping {
+        display: flex;
+    }
+}
+
+@media only screen and (max-width:560px) {
+
+    .name input,
+    .number input,
+    .address input,
+    .city input,
+    .pincode input,
+    .country input,
+    .state input {
+        letter-spacing: 1px;
+        border-radius: 5px;
+        height: 16px;
+        font-size: 12px;
+    }
+
+    .shipping_main {
+        transform: translateY(6px);
+    }
+
+    .shipping_address_form i {
+        font-size: 15px;
+    }
+
+    .cart_total_price p {
+        margin: 0;
+        margin-top: 10px;
+        margin-bottom: 13px;
+    }
+
+    .cart_total_price {
+        height: 302px;
+    }
+
+    .cart_total_price h6 {
+        margin-bottom: 18px;
+    }
+}
+.checkout_button_continue{
+    width: 100%;
+}

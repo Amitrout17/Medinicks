@@ -1,0 +1,110 @@
+.order_details_main {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    background-color: white;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding: 20px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.order_details_payment_info {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+.order_details_payment_info h3 {
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: underline;
+    text-underline-position: under;
+    font-weight: 100;
+    margin-bottom: 16px;
+
+}
+
+.order_details_payment_info div {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.order_details_payment_info div p {
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font: 100;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.order_details_main_shipping_address h3 {
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: underline;
+    text-underline-position: under;
+    font-weight: 100;
+    margin-bottom: 16px;
+}
+
+.order_details_main_shipping_address p {
+    margin: 0;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    font: 100;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width:842px) {
+    .order_details_main_shipping_address {
+        margin-bottom: 20px;
+    }
+    .order_details_main {
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (max-width:577px) {
+    .order_details_main_shipping_address p {
+        font-size: 13px;
+    }
+
+    .order_details_payment_info div p {
+        font-size: 13px;
+    }
+
+    .order_details_main_shipping_address h3,
+    .order_details_payment_info h3 {
+        font-size: 15px;
+    }
+    .payment_id_details{
+        max-width: 250px;
+        overflow: scroll;
+        height: 25px;
+    }
+    .order_details_main {
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (max-width:470px) {
+    .order_details_main{
+        margin: 0 19px 0;
+    }
+    .payment_id_details{
+        max-width: 150px;
+    }
+    .single_order_total_price{
+        font-size: 13px;
+    }
+    .order_details_main {
+        margin-top: 30px;
+    }
+}

@@ -1,0 +1,121 @@
+.single_order_items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 15px;
+    border: 1px solid gray;
+    padding: 5px;
+
+}
+
+.single_order_items img {
+    width: 120px;
+    padding: 10px;
+}
+
+.single_order_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.single_order_header h4 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 100;
+    font-size: 13px;
+}
+
+.order_status {
+    background-color: yellow;
+    padding: 3px;
+}
+
+.single_order_hr {
+    width: 100%;
+    height: 1px;
+    background-color: gray;
+    margin-top: 20px;
+}
+
+.single_order_items h5 {
+    text-transform: uppercase;
+    font: 100;
+    letter-spacing: 2px;
+    font-weight: 200;
+}
+
+.single_order_main {
+    margin-bottom: 40px;
+    padding: 5px;
+    margin-left: 60px;
+    margin-right: 60px;
+    background-color: white;
+    padding: 20px;
+}
+
+.single_order_item_main {
+    max-height: 21pc;
+    overflow: scroll;
+}
+
+@media only screen and (max-width:1021px) {
+    .single_order_items {
+        flex-direction: column;
+    }
+
+    .single_order_header {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+
+    .single_order_items h5 {
+        margin: 0;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .single_order_item_main {
+        max-height: 17pc;
+        overflow: scroll;
+    }
+}
+
+@media only screen and (max-width:470px) {
+    .single_order_header h3 {
+        margin: 0;
+        margin-bottom: 9px;
+    }
+    .single_order_main {
+        margin-left: 19px;
+        margin-right: 19px;
+    }
+    .single_order_header h3 {
+        font-size: 11px;
+    }
+    .single_order_items h5 {
+        font-size: 10px;
+    }
+    .single_order_main {
+        padding: 10px;
+    }
+    .my_order_header h3 {
+        padding-top: 12px;
+        padding-bottom: 15px;
+        font-size: 13px;
+    }
+}
+
+.single_order_header button{
+    border: 0;
+    width: 127px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    height: 31px;
+    background: #68ff68;
+    border-radius: 3px;
+}
